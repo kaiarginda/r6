@@ -20,8 +20,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          exact
-          path="/foodsi"
+          path="/eater"
           element={[
             <Navbar />,
             <Hero />,
