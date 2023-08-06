@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/foods"
+          path="/foodsi"
           element={[
             <Navbar />,
             <Hero />,
