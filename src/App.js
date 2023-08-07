@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/r3"
+          path="/r6"
           element={[
             <Navbar />,
             <Hero />,

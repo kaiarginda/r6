@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-icons">
             <BsCart2 className="nav-i" />
-            <Link to="/r3">
+            <Link to="/r6">
               <AiOutlineSearch className="nav-i" />
             </Link>
           </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
       <div className="hamburger-navbar">
         <ul>
           <li>
-            <a href="/r3" className="hn-a">
+            <a href="/r6" className="hn-a">
               Home
             </a>
           </li>
