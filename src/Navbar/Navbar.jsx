@@ -38,26 +38,26 @@ const Navbar = () => {
           </div>{" "}
           <div className="navbar-list">
             <ul>
-              <li to="/" className="navbar-li-link">
+              <li to="/r3" className="navbar-li-link">
                 <a href="#">HOME</a>
               </li>
-              <li to="/" className="navbar-li-link">
+              <li to="/r3" className="navbar-li-link">
                 <a href="#menu">MENU</a>
               </li>
-              <li to="/" className="navbar-li-link">
+              <li to="/r3" className="navbar-li-link">
                 <a href="#listing">SHOP</a>
               </li>
-              <li to="/" className="navbar-li-link">
+              <li to="/r3" className="navbar-li-link">
                 <a href="#product">PAGES</a>
               </li>
-              <li to="/" className="navbar-li-link">
+              <li to="/r3" className="navbar-li-link">
                 <a href="#sales">OUR BLOG</a>
               </li>
-              <li to="/" className="navbar-li-link">
+              <li to="/r3" className="navbar-li-link">
                 <a href="#contact">CONTACT</a>
               </li>
               <li className="dis-none">
-                <a href="#" className="">
+                <a href="/r3" className="">
                   <GiHamburgerMenu className="hamb-icon" />
                 </a>
               </li>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-icons">
             <BsCart2 className="nav-i" />
-            <Link to="/recipe">
+            <Link to="/r3">
               <AiOutlineSearch className="nav-i" />
             </Link>
           </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
       <div className="hamburger-navbar">
         <ul>
           <li>
-            <a href="#" className="hn-a">
+            <a href="/r3" className="hn-a">
               Home
             </a>
           </li>

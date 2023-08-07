@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/eater"
+          path="/r3"
           element={[
             <Navbar />,
             <Hero />,
@@ -36,7 +36,6 @@ function App() {
             <Copyright />,
           ]}
         ></Route>
-        <Route path="/recipe" element={[<Recipe />]}></Route>
 
         {/* <Route path={`/recipe/:id`} element={[<ItemDetails />]}></Route> */}
       </Routes>
